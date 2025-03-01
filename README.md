@@ -1,10 +1,30 @@
 # EDA-on-OYO-booking-analysis-using-Python
+# Hotel Booking Exploratory Data Analysis 
 
-Summary
 
-Hotel Business is dependent on the customer traffic they get daily or on occasion. The apex point of this case study is to analyze the data of 2 types of hotels and give complete insights into their past, and current business. Also to provide some envisages that aid their business to grow in the upward direction. We are a team of three – Luv Mutreja, Jivan Jadhao, and Hitesh Kumar Khurana. We present here our exploratory data analysis, visualizations, interactive plots, animations, and lots of other interesting insights into the Hotel Booking data. We began by examining the raw data and performing the necessary cleaning of the dataset. then determine which features provide the most insight into price prediction and remove those that only serve to add noise. Data visualization and exploratory data analysis were performed on the tidied dataset to inform our modeling. We have tried to get an outlook of the following problem statement using data analytic techniques.  Analysis based on the number of bookings.  Analysis based on the types of people who book the hotels.  Analysis based on price distribution.  Analysis based on the type of stay.  Analysis based on their arriving and checking out time. As a team, we invested a lot of time in discussing and brainstorming ideas - from selecting the dataset to compiling the final version of this report. All of us had a deep sense of teamwork and communicated well with each other. We were successful in acknowledging and appreciating each other’s efforts while at the same time correcting each other along the way. The work was divided such that each of us worked on equally challenging tasks. From EDA, we found that May, October, June, and April got the highest traffic of Customers. The highest number of bookings was in the year 2016. The busiest month for the last 2 years (i.e. for the years 2016 and 2017) was the 5th month which is the month of May. Hotels generally got 96.8% new customers and they retained 3.2%, loyal customers. The Hotels should work on, ‘How to lower the booking cancellation ratio?’. We can suggest to the Hotel Owner to work on their Full Board meals so that the customers having long duration stays (i.e. 14+ nights) should order for The Full Boarded (i.e. FB ).
+In this Capstone Project on Exploratory data analysis, the prime aim has been to understand all the key concepts taught in Python modules and to use tools like Python coding, pandas libraries, and data visualization libraries to extract, analyze, and gain insight into the given hotel bookings csv dataset from the timeline 2015-2017. 
 
-Conclusion By conducting eda(exploratory data analysis) on the given dataset we were able to understand the work a data scientist or a data analyst is supposed to do. We got hands-on experience of how to deal with large amounts of data and generate insights on the same. This project enabled us to experiment with the data and generate different problems. Further, we were able to get solutions to the problems using data visualization tools, and these solutions gave us the insights we needed.
-Furthermore, a noteworthy observation was made regarding the comparison between resort and city hotels. The data suggested that resort hotels tend to be more affordable than city hotels, providing a competitive advantage in attracting cost-conscious customers. This insight opens avenues for marketing campaigns emphasizing affordability, potentially increasing bookings for resort properties.
+Additionally, we have analyzed the data to understand when the best time of year to book a hotel room is. the optimal length of stay to get the best daily rate? What if you wanted to predict whether or not a hotel was likely to receive a disproportionately high number of special requests? 
+Factors governing cancellation of bookings?
 
-In conclusion, the EDA on the hotel booking dataset offered valuable insights for strategic decision-making. The temporal analysis, revenue source identification, and observations regarding booking cancellations and hotel types provide a comprehensive understanding of the business landscape. Moving forward, the hotel management can leverage these insights to refine marketing strategies, enhance customer experiences, and optimize revenue generation. The exploration undertaken in this analysis is a foundation for data-driven decision-making, positioning the hotel business for continued success and growth.
+Our approach to solving these problems was as follows.
+
+•	Loading the data from the drive into the data frame.
+•	Cleaning the data frame
+•	Data Analysis using Pandas library
+•	Data Wrangling and Visualization
+
+The dataset consists of 119390 rows and 32 columns.
+Initially, we mounted our drive into the Collab notebook, and using the pandas library we successfully read the given CSV file. The next step was data cleaning and removing all the duplicate rows and outliers from the data. we have also handled the missing values, converted the columns to appropriate data, and added some useful columns from the data.
+
+Thereafter, we used various data wrangling techniques and different data visualization plots to get insight into our dataset and tried to come up with useful conclusions for various exploratory data analysis problems. 
+
+Some of our important conclusions and results from our exploratory data analysis were as follows
+
+•	Nearly 60% of guests prefer City Hotel and only 40% of guests prefer Resort Hotel while booking.
+•	Most of the customers come in August and we can see the least customers in December
+•	Most bookings are done by couples. Hence providing good deals for couples can increase the number of bookings
+•	 The reason behind hotel booking cancellation is due to the availability of car parking space.
+•	The number of days stay preferred by the most number of customers is 1 day with nearly 25% secondly, the preferred no. of days stay is 3 days.
+•	If the number of adult guests is 3 and if the number of kids is 1 or 3, then we can expect the highest number of special requests.
+
