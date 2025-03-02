@@ -1,8 +1,6 @@
-# EDA-on-OYO-booking-analysis-using-Python
-# Hotel Booking Exploratory Data Analysis 
+# Airbnb-booking-analysis-EDA-using-Python
 
-
-In this Capstone Project on Exploratory data analysis, the prime aim has been to understand all the key concepts taught in Python modules and to use tools like Python coding, pandas libraries, and data visualization libraries to extract, analyze, and gain insight into the given hotel bookings csv dataset from the timeline 2015-2017. 
+In this Capstone Project on Exploratory data analysis, the prime aim has been to understand all the key concepts taught in Python modules and to use tools like Python coding, pandas libraries, and data visualization libraries to extract, analyze, and gain insight into the given hotel bookings CSV dataset from the timeline 2015-2017. 
 
 Additionally, we have analyzed the data to understand when the best time of year to book a hotel room is. the optimal length of stay to get the best daily rate? What if you wanted to predict whether or not a hotel was likely to receive a disproportionately high number of special requests? 
 Factors governing cancellation of bookings?
