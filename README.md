@@ -1,4 +1,4 @@
-# Airbnb-booking-Analysis-EDA-using-Python
+# Booking.com-booking-Analysis-EDA-using-Python
 
 In this Capstone Project on Exploratory data analysis, the prime aim has been to understand all the key concepts taught in Python modules and to use tools like Python coding, pandas libraries, and data visualization libraries to extract, analyze, and gain insight into the given hotel bookings CSV dataset from the timeline 2015-2017. 
 
